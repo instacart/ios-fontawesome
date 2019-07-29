@@ -1,0 +1,22 @@
+name: FontAwesome-iOS
+options:
+  bundleIdPrefix: com.alexusbergo
+  deploymentTarget:
+    iOS: "8.0"
+targets:
+  FontAwesome-iOS:
+    platform: iOS
+    scheme: {} # Generate default scheme
+    sources:
+      - path: .
+        excludes:
+          - .git
+          - .gitignore
+          - .gitmodules
+          - Demo
+          - FontAwesome-iOS.xcodeproj
+          - FontAwesome+iOS.podspec
+          - project.yml
+          - README.md
+          - Resources/fontawesome-github.jpg
+    type: framework
