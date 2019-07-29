@@ -10,7 +10,6 @@
 		070D2B33CC38540736BF9554 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794EAA78B507E0A39B88B1A /* UIFont+FontAwesome.m */; };
 		24CAC791F33EC334C10BC815 /* NSString+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 5092DE764C8DD0DEB8B51408 /* NSString+FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26E5CDDEFF7BA68D9EB22962 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1ECBFC746AA4219C9102C /* FontAwesome.ttf */; };
-		404A2E417C2914991B27CF07 /* String+FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481AEC567301A4017D5BB4B /* String+FontAwesome.swift */; };
 		563760EE6A1B23F7E64C8B39 /* FAImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7AD692888B8F1F962BB503 /* FAImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A7EDC8C5D9568A20A883D11 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C59C6DE1012C8411CCD678 /* FAImageView.m */; };
 		A04BFE1054AA8C49B8A83209 /* UIFont+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6AEAFA04911D4A799E29D0 /* UIFont+FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0481AEC567301A4017D5BB4B /* String+FontAwesome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+FontAwesome.swift"; sourceTree = "<group>"; };
 		110B2581218086C8A10E704F /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
 		20C59C6DE1012C8411CCD678 /* FAImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
 		3DF1ECBFC746AA4219C9102C /* FontAwesome.ttf */ = {isa = PBXFileReference; path = FontAwesome.ttf; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 				20C59C6DE1012C8411CCD678 /* FAImageView.m */,
 				5092DE764C8DD0DEB8B51408 /* NSString+FontAwesome.h */,
 				F2B3F70FEC82C1EBD30099BA /* NSString+FontAwesome.m */,
-				0481AEC567301A4017D5BB4B /* String+FontAwesome.swift */,
 				3F6AEAFA04911D4A799E29D0 /* UIFont+FontAwesome.h */,
 				4794EAA78B507E0A39B88B1A /* UIFont+FontAwesome.m */,
 				EECC9B28CB6B27B29D84B499 /* UIImage+FontAwesome.h */,
@@ -153,7 +150,6 @@
 			files = (
 				9A7EDC8C5D9568A20A883D11 /* FAImageView.m in Sources */,
 				B3C02E54AB2C554FB3405F1F /* NSString+FontAwesome.m in Sources */,
-				404A2E417C2914991B27CF07 /* String+FontAwesome.swift in Sources */,
 				070D2B33CC38540736BF9554 /* UIFont+FontAwesome.m in Sources */,
 				B4A7C0C80FDBAE5E5C29A921 /* UIImage+FontAwesome.m in Sources */,
 			);
