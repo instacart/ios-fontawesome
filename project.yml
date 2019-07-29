@@ -5,23 +5,14 @@ options:
     iOS: "8.0"
 targets:
   FontAwesome:
-    info:
-      path: Info.plist
     platform: iOS
     scheme: {} # Generate default scheme
     settings:
-      MODULEMAP_FILE: FontAwesome.modulemap
+      GCC_GENERATE_DEBUGGING_SYMBOLS: NO # Avoid downstream warning: "Redistributable static libraries should never be built with module debugging enabled"
+      MACH_O_TYPE: staticlib
+      MODULEMAP_FILE: FontAwesome/FontAwesome.modulemap
     sources:
-      - path: .
+      - path: FontAwesome
         excludes:
-          - .git
-          - .gitignore
-          - .gitmodules
-          - Demo
           - FontAwesome.modulemap
-          - FontAwesome.xcodeproj
-          - FontAwesome+iOS.podspec
-          - project.yml
-          - README.md
-          - Resources/fontawesome-github.jpg
     type: framework
