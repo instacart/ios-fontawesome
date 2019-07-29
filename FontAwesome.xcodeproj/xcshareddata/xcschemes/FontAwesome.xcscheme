@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "989881B543BCEB410AA8889B"
-               BuildableName = "FontAwesome-iOS.framework"
-               BlueprintName = "FontAwesome-iOS"
-               ReferencedContainer = "container:FontAwesome-iOS.xcodeproj">
+               BlueprintIdentifier = "FC0FBB978F9A69ACC251533A"
+               BuildableName = "FontAwesome.framework"
+               BlueprintName = "FontAwesome"
+               ReferencedContainer = "container:FontAwesome.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "989881B543BCEB410AA8889B"
-            BuildableName = "FontAwesome-iOS.framework"
-            BlueprintName = "FontAwesome-iOS"
-            ReferencedContainer = "container:FontAwesome-iOS.xcodeproj">
+            BlueprintIdentifier = "FC0FBB978F9A69ACC251533A"
+            BuildableName = "FontAwesome.framework"
+            BlueprintName = "FontAwesome"
+            ReferencedContainer = "container:FontAwesome.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -58,10 +58,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "989881B543BCEB410AA8889B"
-            BuildableName = "FontAwesome-iOS.framework"
-            BlueprintName = "FontAwesome-iOS"
-            ReferencedContainer = "container:FontAwesome-iOS.xcodeproj">
+            BlueprintIdentifier = "FC0FBB978F9A69ACC251533A"
+            BuildableName = "FontAwesome.framework"
+            BlueprintName = "FontAwesome"
+            ReferencedContainer = "container:FontAwesome.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -79,10 +79,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "989881B543BCEB410AA8889B"
-            BuildableName = "FontAwesome-iOS.framework"
-            BlueprintName = "FontAwesome-iOS"
-            ReferencedContainer = "container:FontAwesome-iOS.xcodeproj">
+            BlueprintIdentifier = "FC0FBB978F9A69ACC251533A"
+            BuildableName = "FontAwesome.framework"
+            BlueprintName = "FontAwesome"
+            ReferencedContainer = "container:FontAwesome.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>

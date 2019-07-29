@@ -1,14 +1,14 @@
-name: FontAwesome-iOS
+name: FontAwesome
 options:
   bundleIdPrefix: com.alexusbergo
   deploymentTarget:
     iOS: "8.0"
 targets:
-  FontAwesome-iOS:
+  FontAwesome:
     platform: iOS
     scheme: {} # Generate default scheme
     settings:
-      MODULEMAP_FILE: FontAwesome-iOS.modulemap
+      MODULEMAP_FILE: FontAwesome.modulemap
     sources:
       - path: .
         excludes:
@@ -16,8 +16,8 @@ targets:
           - .gitignore
           - .gitmodules
           - Demo
-          - FontAwesome-iOS.modulemap
-          - FontAwesome-iOS.xcodeproj
+          - FontAwesome.modulemap
+          - FontAwesome.xcodeproj
           - FontAwesome+iOS.podspec
           - project.yml
           - README.md
