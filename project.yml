@@ -7,6 +7,8 @@ targets:
   FontAwesome-iOS:
     platform: iOS
     scheme: {} # Generate default scheme
+    settings:
+      MODULEMAP_FILE: FontAwesome-iOS.modulemap
     sources:
       - path: .
         excludes:
@@ -14,6 +16,7 @@ targets:
           - .gitignore
           - .gitmodules
           - Demo
+          - FontAwesome-iOS.modulemap
           - FontAwesome-iOS.xcodeproj
           - FontAwesome+iOS.podspec
           - project.yml
