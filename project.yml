@@ -5,6 +5,8 @@ options:
     iOS: "8.0"
 targets:
   FontAwesome:
+    info:
+      path: Info.plist
     platform: iOS
     scheme: {} # Generate default scheme
     settings:
