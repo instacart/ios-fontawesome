@@ -26,6 +26,7 @@
 		194573BDAE677DE9661FAE58 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
 		237BDF59C4F30EEEEB2E36D5 /* FAImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
 		2B796813FA07B9C3F09C8FA1 /* FontAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8973A519FE3791A7E4AECC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FCFF86D962E70914FABD124 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
 		AD04000EAABE65722196C6C2 /* FontAwesome-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontAwesome-umbrella.h"; sourceTree = "<group>"; };
 		E57769DFB4C7ECEAFF36DE32 /* FAImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 				E57769DFB4C7ECEAFF36DE32 /* FAImageView.h */,
 				237BDF59C4F30EEEEB2E36D5 /* FAImageView.m */,
 				AD04000EAABE65722196C6C2 /* FontAwesome-umbrella.h */,
+				8973A519FE3791A7E4AECC48 /* Info.plist */,
 				06A88715E8BDAD782BC46775 /* NSString+FontAwesome.h */,
 				00E300562F81AAF1369D6473 /* NSString+FontAwesome.m */,
 				194573BDAE677DE9661FAE58 /* UIFont+FontAwesome.h */,
@@ -283,6 +285,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULEMAP_FILE = FontAwesome.modulemap;
@@ -303,6 +306,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULEMAP_FILE = FontAwesome.modulemap;
